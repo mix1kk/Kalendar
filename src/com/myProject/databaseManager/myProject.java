@@ -1,17 +1,10 @@
 package com.myProject.databaseManager;
 
-import com.myProject.databaseManager.utils.ConnectionManager;
-import com.myProject.databaseManager.utils.Database;
-
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
-
 public class myProject {
 
     public static void main(String[] args) {
-        Database database = new Database();
-        database.getConnection();
+      //  Database database = new Database();
+       // database.getConnection();
       /*  String sql = """
                 CREATE TABLE IF NOT EXISTS test123(
                 id SERIAL PRIMARY KEY,
