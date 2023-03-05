@@ -1,8 +1,24 @@
 package com.myProject.databaseManager;
 
+import com.myProject.databaseManager.DataLayer.User;
+import com.myProject.databaseManager.DomainLayer.Users;
+
 public class myProject {
 
     public static void main(String[] args) {
+        Users users = new Users();
+        User user = new User();
+      //  users = user.getUserById(0);
+      //  System.out.println(users.getBirthday().getTime());
+       //   users.setName("na");
+      //  user.updateUser(users);
+      //  user.getAllUsers();
+       // user.getUserById(0);
+        // users.setId(1);
+      // user.addUser(users);
+      //  user.removeUser(users.getId());
+      //  users.setName("name");
+     //  user.updateUser(users);
       //  Database database = new Database();
        // database.getConnection();
       /*  String sql = """
